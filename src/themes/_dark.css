@@ -1,0 +1,4 @@
+/* Dark theme support via [data-theme="dark"] on :root or body */
+[data-theme="dark"] .card{background:var(--gray-800); color:var(--gray-100); border-color:var(--gray-700)}
+[data-theme="dark"] .navbar{background:var(--gray-900); color:var(--gray-100); border-color:var(--gray-800)}
+[data-theme="dark"] .input{background:var(--gray-800); border-color:var(--gray-700); color:var(--gray-100)}

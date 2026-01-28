@@ -1,0 +1,4 @@
+@media (min-width:640px){.sm\:p-6{padding:var(--space-6)}.sm\:grid{display:grid}.sm\:col-3{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:768px){.md\:p-8{padding:var(--space-8)}.md\:col-4{grid-template-columns:repeat(4,1fr)}}
+@media (min-width:1024px){.lg\:p-10{padding:var(--space-10)}}
+@media (min-width:1280px){.xl\:p-12{padding:var(--space-12)}}

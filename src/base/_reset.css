@@ -1,0 +1,10 @@
+/* Modern CSS reset (minimal) */
+*,*::before,*::after{box-sizing:border-box}
+html:focus-within{scroll-behavior:smooth}
+html,body{height:100%}
+body{margin:0; text-rendering:optimizeLegibility; -webkit-font-smoothing:antialiased; color:var(--fg); background:var(--bg);}
+img,svg,video,canvas,audio,iframe,embed,object{display:block; max-width:100%}
+input,button,textarea,select{font:inherit; color:inherit}
+button{border:0;background:none}
+:root{color-scheme:light dark}
+@media (prefers-reduced-motion: reduce){*{animation-duration:.01ms!important; animation-iteration-count:1!important; transition-duration:.01ms!important; scroll-behavior:auto!important}}

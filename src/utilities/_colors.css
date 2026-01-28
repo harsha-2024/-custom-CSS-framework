@@ -1,0 +1,6 @@
+.text-primary{color:var(--primary-600)} .bg-primary{background:var(--primary-600); color:var(--color-white)}
+.text-muted{color:var(--muted)}
+.bg-white{background:var(--color-white)} .bg-gray-50{background:var(--gray-50)} .bg-gray-900{background:var(--gray-900); color:var(--gray-100)}
+.border{border:1px solid var(--gray-200)}.border-0{border:0}
+.rounded{border-radius:var(--radius-4)}.rounded-full{border-radius:var(--radius-full)}
+.shadow{box-shadow:var(--shadow)}.shadow-md{box-shadow:var(--shadow-md)}

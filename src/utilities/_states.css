@@ -1,0 +1,5 @@
+[hover\:underline]:hover{text-decoration:underline}
+[hover\:bg-primary]:hover{background:var(--primary-600); color:var(--color-white)}
+[focus\:ring]:focus{outline:2px solid var(--primary-500); outline-offset:2px}
+[active\:opacity-75]:active{opacity:.75}
+[disabled]{opacity:.6; pointer-events:none}

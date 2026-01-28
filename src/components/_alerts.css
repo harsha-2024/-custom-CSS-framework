@@ -1,0 +1,5 @@
+.alert{padding:var(--space-3) var(--space-4); border-radius:var(--radius-3); border:1px solid transparent}
+.alert-success{background:#ecfdf5; border-color:#a7f3d0; color:#065f46}
+.alert-warning{background:#fffbeb; border-color:#fde68a; color:#92400e}
+.alert-danger{background:#fef2f2; border-color:#fecaca; color:#991b1b}
+.alert-info{background:#e0f2fe; border-color:#bae6fd; color:#075985}

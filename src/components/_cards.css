@@ -1,0 +1,4 @@
+.card{background:var(--color-white); color:var(--fg); border:1px solid var(--gray-200); border-radius:var(--radius-4); box-shadow:var(--shadow-sm)}
+.card-body{padding:var(--space-4)}
+.card-header{padding:var(--space-4); border-bottom:1px solid var(--gray-200); font-weight:600}
+.card-footer{padding:var(--space-4); border-top:1px solid var(--gray-200)}

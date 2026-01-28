@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aurora CSS – Demo</title>
+  <link rel="stylesheet" href="../dist/aurora.min.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand">Aurora</div>
+    <div class="navbar-menu">
+      <a class="text-muted" href="#">Docs</a>
+      <button class="btn btn-outline">Sign in</button>
+      <button class="btn btn-primary" hover:brighten>Get started</button>
+    </div>
+  </nav>
+
+  <header class="container stack p-4 md:p-8">
+    <h1 class="h1">Build fast with Aurora CSS</h1>
+    <p class="p muted max-w-lg">Utility classes, accessible components, and tokens so you ship consistent UIs without a build step.</p>
+    <div class="cluster">
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-outline">Outline</button>
+    </div>
+  </header>
+
+  <main class="container stack p-4">
+    <section class="grid col-3 gap-4 sm:grid sm:col-3">
+      <div class="card">
+        <div class="card-header">Card one</div>
+        <div class="card-body">Content goes here.</div>
+      </div>
+      <div class="card">
+        <div class="card-header">Card two</div>
+        <div class="card-body">More content.</div>
+      </div>
+      <div class="card">
+        <div class="card-header">Card three</div>
+        <div class="card-body">Even more content.</div>
+      </div>
+    </section>
+
+    <section class="stack">
+      <div class="alert alert-success">Success state</div>
+      <div class="alert alert-warning">Warning state</div>
+      <div class="alert alert-danger">Danger state</div>
+    </section>
+
+    <section class="grid col-2 gap-6">
+      <form class="stack">
+        <label class="label">Email</label>
+        <input class="input" placeholder="you@example.com"/>
+        <span class="help">We'll never share your email.</span>
+        <div class="cluster">
+          <button class="btn btn-primary">Submit</button>
+          <button class="btn" disabled>Disabled</button>
+        </div>
+      </form>
+
+      <div class="stack">
+        <h2 class="h3">Modal preview</h2>
+        <dialog class="modal" id="demoModal" open>
+          <div class="modal-dialog">
+            <div class="modal-header">Hello</div>
+            <div class="modal-body">This is a modal body.</div>
+            <div class="modal-footer"><button class="btn btn-primary">Ok</button></div>
+          </div>
+        </dialog>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container p-4 text-sm text-muted">© 2026 Aurora CSS</footer>
+</body>
+</html>

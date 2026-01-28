@@ -1,0 +1,4 @@
+.text-xs{font-size:var(--text-xs)}.text-sm{font-size:var(--text-sm)}.text-base{font-size:var(--text-base)}.text-lg{font-size:var(--text-lg)}
+.text-xl{font-size:var(--text-xl)}.text-2xl{font-size:var(--text-2xl)}.font-bold{font-weight:700}.font-medium{font-weight:500}
+.leading-tight{line-height:var(--leading-tight)}.tracking-wide{letter-spacing:var(--tracking-wide)}
+.text-center{text-align:center}
